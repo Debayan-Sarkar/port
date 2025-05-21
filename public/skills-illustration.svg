@@ -1,0 +1,197 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background grid -->
+  <pattern id="smallGrid" width="10" height="10" patternUnits="userSpaceOnUse">
+    <path d="M 10 0 L 0 0 0 10" fill="none" stroke="#333" stroke-width="0.5" opacity="0.2"/>
+  </pattern>
+  <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+    <rect width="100" height="100" fill="url(#smallGrid)"/>
+    <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#333" stroke-width="1" opacity="0.3"/>
+  </pattern>
+  <rect width="600" height="400" fill="url(#grid)"/>
+  
+  <!-- Central brain concept -->
+  <circle cx="300" cy="200" r="80" fill="none" stroke="url(#brainGradient)" stroke-width="2"/>
+  <circle cx="300" cy="200" r="70" fill="none" stroke="url(#brainGradient)" stroke-width="1" stroke-dasharray="3 3"/>
+  
+  <!-- Brain connections -->
+  <path d="M300 130 C310 140, 330 140, 330 150 C330 160, 320 170, 330 180 C340 190, 360 180, 360 190 C360 200, 350 210, 360 220 C370 230, 350 240, 340 250" stroke="#ff4d4d" stroke-width="1.5" fill="none"/>
+  <path d="M300 130 C290 140, 270 140, 270 150 C270 160, 280 170, 270 180 C260 190, 240 180, 240 190 C240 200, 250 210, 240 220 C230 230, 250 240, 260 250" stroke="#ff4d4d" stroke-width="1.5" fill="none"/>
+  
+  <!-- Brain center -->
+  <circle cx="300" cy="200" r="20" fill="url(#centerGlow)"/>
+  
+  <!-- Skills nodes -->
+  <!-- Frontend -->
+  <g transform="translate(160, 100)">
+    <circle cx="0" cy="0" r="25" fill="#151515" stroke="#333" stroke-width="1"/>
+    <text x="0" y="4" font-family="Arial" font-size="8" fill="white" text-anchor="middle">FRONTEND</text>
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#ff4d4d" stroke-width="1" opacity="0.5" stroke-dasharray="2 2"/>
+  </g>
+  
+  <!-- Backend -->
+  <g transform="translate(440, 100)">
+    <circle cx="0" cy="0" r="25" fill="#151515" stroke="#333" stroke-width="1"/>
+    <text x="0" y="4" font-family="Arial" font-size="8" fill="white" text-anchor="middle">BACKEND</text>
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#ff4d4d" stroke-width="1" opacity="0.5" stroke-dasharray="2 2"/>
+  </g>
+  
+  <!-- Database -->
+  <g transform="translate(160, 300)">
+    <circle cx="0" cy="0" r="25" fill="#151515" stroke="#333" stroke-width="1"/>
+    <text x="0" y="4" font-family="Arial" font-size="8" fill="white" text-anchor="middle">DATABASE</text>
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#ff4d4d" stroke-width="1" opacity="0.5" stroke-dasharray="2 2"/>
+  </g>
+  
+  <!-- DevOps -->
+  <g transform="translate(440, 300)">
+    <circle cx="0" cy="0" r="25" fill="#151515" stroke="#333" stroke-width="1"/>
+    <text x="0" y="4" font-family="Arial" font-size="8" fill="white" text-anchor="middle">DEVOPS</text>
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#ff4d4d" stroke-width="1" opacity="0.5" stroke-dasharray="2 2"/>
+  </g>
+  
+  <!-- Mobile -->
+  <g transform="translate(120, 200)">
+    <circle cx="0" cy="0" r="25" fill="#151515" stroke="#333" stroke-width="1"/>
+    <text x="0" y="4" font-family="Arial" font-size="8" fill="white" text-anchor="middle">MOBILE</text>
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#ff4d4d" stroke-width="1" opacity="0.5" stroke-dasharray="2 2"/>
+  </g>
+  
+  <!-- Cloud -->
+  <g transform="translate(480, 200)">
+    <circle cx="0" cy="0" r="25" fill="#151515" stroke="#333" stroke-width="1"/>
+    <text x="0" y="4" font-family="Arial" font-size="8" fill="white" text-anchor="middle">CLOUD</text>
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#ff4d4d" stroke-width="1" opacity="0.5" stroke-dasharray="2 2"/>
+  </g>
+  
+  <!-- Technology names in small circles -->
+  <!-- Frontend technologies -->
+  <g transform="translate(200, 70)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">REACT</text>
+  </g>
+  
+  <g transform="translate(180, 40)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">VUE</text>
+  </g>
+  
+  <g transform="translate(140, 50)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">CSS3</text>
+  </g>
+  
+  <!-- Backend technologies -->
+  <g transform="translate(400, 70)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">NODE</text>
+  </g>
+  
+  <g transform="translate(420, 40)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">PYTHON</text>
+  </g>
+  
+  <g transform="translate(460, 50)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">JAVA</text>
+  </g>
+  
+  <!-- Database technologies -->
+  <g transform="translate(140, 330)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">SQL</text>
+  </g>
+  
+  <g transform="translate(180, 360)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">MONGO</text>
+  </g>
+  
+  <g transform="translate(200, 330)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">REDIS</text>
+  </g>
+  
+  <!-- DevOps technologies -->
+  <g transform="translate(400, 330)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">DOCKER</text>
+  </g>
+  
+  <g transform="translate(420, 360)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">K8S</text>
+  </g>
+  
+  <g transform="translate(460, 330)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">CI/CD</text>
+  </g>
+  
+  <!-- Mobile technologies -->
+  <g transform="translate(90, 170)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">REACT N</text>
+  </g>
+  
+  <g transform="translate(80, 210)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">FLUTTER</text>
+  </g>
+  
+  <g transform="translate(100, 240)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">SWIFT</text>
+  </g>
+  
+  <!-- Cloud technologies -->
+  <g transform="translate(510, 170)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">AWS</text>
+  </g>
+  
+  <g transform="translate(520, 210)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">AZURE</text>
+  </g>
+  
+  <g transform="translate(500, 240)">
+    <circle cx="0" cy="0" r="12" fill="#151515" stroke="#ff4d4d" stroke-width="0.5"/>
+    <text x="0" y="3" font-family="Arial" font-size="5" fill="white" text-anchor="middle">GCP</text>
+  </g>
+  
+  <!-- Connect main skills to central brain -->
+  <line x1="185" y1="100" x2="280" y2="200" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="4 2"/>
+  <line x1="415" y1="100" x2="320" y2="200" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="4 2"/>
+  <line x1="185" y1="300" x2="280" y2="200" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="4 2"/>
+  <line x1="415" y1="300" x2="320" y2="200" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="4 2"/>
+  <line x1="145" y1="200" x2="280" y2="200" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="4 2"/>
+  <line x1="455" y1="200" x2="320" y2="200" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="4 2"/>
+  
+  <!-- Particles -->
+  <circle cx="250" cy="150" r="2" fill="#ff4d4d" opacity="0.5">
+    <animate attributeName="cy" values="150;155;150" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="150" r="2" fill="#ff4d4d" opacity="0.5">
+    <animate attributeName="cy" values="150;145;150" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="250" r="2" fill="#ff4d4d" opacity="0.5">
+    <animate attributeName="cy" values="250;255;250" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="250" r="2" fill="#ff4d4d" opacity="0.5">
+    <animate attributeName="cy" values="250;245;250" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4d4d"/>
+      <stop offset="100%" stop-color="#ff8080"/>
+    </linearGradient>
+    
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#ff4d4d"/>
+      <stop offset="100%" stop-color="#ff4d4d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

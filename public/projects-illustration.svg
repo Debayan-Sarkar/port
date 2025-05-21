@@ -1,0 +1,178 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="none"/>
+  
+  <!-- Grid lines -->
+  <line x1="0" y1="50" x2="600" y2="50" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="0" y1="100" x2="600" y2="100" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="0" y1="150" x2="600" y2="150" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="0" y1="200" x2="600" y2="200" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="0" y1="250" x2="600" y2="250" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="0" y1="300" x2="600" y2="300" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="0" y1="350" x2="600" y2="350" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  
+  <line x1="50" y1="0" x2="50" y2="400" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="100" y1="0" x2="100" y2="400" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="150" y1="0" x2="150" y2="400" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="200" y1="0" x2="200" y2="400" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="250" y1="0" x2="250" y2="400" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="300" y1="0" x2="300" y2="400" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="350" y1="0" x2="350" y2="400" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="400" y1="0" x2="400" y2="400" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="450" y1="0" x2="450" y2="400" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="500" y1="0" x2="500" y2="400" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="550" y1="0" x2="550" y2="400" stroke="#333" stroke-width="0.5" stroke-opacity="0.3"/>
+  
+  <!-- Project 1: Web App -->
+  <g transform="translate(150, 100)">
+    <!-- Project container -->
+    <rect x="0" y="0" width="120" height="160" rx="8" fill="#151515" stroke="#333" stroke-width="1"/>
+    
+    <!-- Browser header -->
+    <rect x="0" y="0" width="120" height="20" rx="8" fill="#2A2A2A" stroke="#333" stroke-width="1"/>
+    <circle cx="10" cy="10" r="3" fill="#ff4d4d"/>
+    <circle cx="20" cy="10" r="3" fill="#FFA500"/>
+    <circle cx="30" cy="10" r="3" fill="#3CB371"/>
+    
+    <!-- Content -->
+    <rect x="10" y="30" width="100" height="10" rx="2" fill="#444"/>
+    <rect x="10" y="45" width="80" height="10" rx="2" fill="#444"/>
+    <rect x="10" y="60" width="60" height="5" rx="2" fill="#ff4d4d" opacity="0.7"/>
+    <rect x="10" y="70" width="60" height="5" rx="2" fill="#ff4d4d" opacity="0.5"/>
+    
+    <rect x="10" y="85" width="100" height="60" rx="4" fill="#222"/>
+    <path d="M30 110 L40 100 L60 120 L80 90" stroke="#ff4d4d" stroke-width="2" fill="none"/>
+    <circle cx="30" cy="110" r="3" fill="#ff4d4d"/>
+    <circle cx="40" cy="100" r="3" fill="#ff4d4d"/>
+    <circle cx="60" cy="120" r="3" fill="#ff4d4d"/>
+    <circle cx="80" cy="90" r="3" fill="#ff4d4d"/>
+    
+    <!-- Project label -->
+    <text x="60" y="155" font-family="Arial" font-size="10" fill="white" text-anchor="middle">WEB APP</text>
+  </g>
+  
+  <!-- Project 2: Mobile App -->
+  <g transform="translate(330, 100)">
+    <!-- Project container -->
+    <rect x="0" y="0" width="120" height="160" rx="8" fill="#151515" stroke="#333" stroke-width="1"/>
+    
+    <!-- Phone frame -->
+    <rect x="35" y="10" width="50" height="100" rx="5" stroke="#444" stroke-width="2" fill="none"/>
+    <rect x="55" y="20" width="10" height="3" rx="1.5" fill="#444"/>
+    <rect x="55" y="95" width="10" height="10" rx="5" stroke="#444" stroke-width="1" fill="none"/>
+    
+    <!-- Screen content -->
+    <rect x="40" y="30" width="40" height="60" rx="2" fill="#222"/>
+    <rect x="45" y="35" width="30" height="5" rx="1" fill="#ff4d4d" opacity="0.7"/>
+    <rect x="45" y="45" width="20" height="5" rx="1" fill="#444"/>
+    <rect x="45" y="55" width="30" height="20" rx="2" fill="#333"/>
+    <rect x="50" y="60" width="20" height="10" rx="2" fill="#ff4d4d" opacity="0.5"/>
+    <rect x="45" y="80" width="15" height="5" rx="1" fill="#444"/>
+    
+    <!-- Project label -->
+    <text x="60" y="125" font-family="Arial" font-size="10" fill="white" text-anchor="middle">MOBILE APP</text>
+    
+    <!-- App icons -->
+    <rect x="30" y="140" width="8" height="8" rx="2" fill="#ff4d4d" opacity="0.7"/>
+    <rect x="44" y="140" width="8" height="8" rx="2" fill="#ff4d4d" opacity="0.5"/>
+    <rect x="58" y="140" width="8" height="8" rx="2" fill="#ff4d4d" opacity="0.7"/>
+    <rect x="72" y="140" width="8" height="8" rx="2" fill="#ff4d4d" opacity="0.5"/>
+    <rect x="86" y="140" width="8" height="8" rx="2" fill="#ff4d4d" opacity="0.7"/>
+  </g>
+  
+  <!-- Project 3: 3D Model -->
+  <g transform="translate(150, 300)">
+    <!-- Project container -->
+    <rect x="-60" y="-60" width="120" height="120" rx="8" fill="#151515" stroke="#333" stroke-width="1"/>
+    
+    <!-- 3D Cube -->
+    <path d="M0 -30 L-30 0 L0 30 L30 0 Z" fill="#222" stroke="#ff4d4d" stroke-width="1"/>
+    <path d="M0 -30 L30 0 L30 -30 Z" fill="#333" stroke="#ff4d4d" stroke-width="1"/>
+    <path d="M0 30 L30 0 L30 30 Z" fill="#333" stroke="#ff4d4d" stroke-width="1"/>
+    <path d="M0 -30 L-30 0 L-30 -30 Z" fill="#333" stroke="#ff4d4d" stroke-width="1"/>
+    <path d="M0 30 L-30 0 L-30 30 Z" fill="#333" stroke="#ff4d4d" stroke-width="1"/>
+    
+    <!-- 3D coordinate axes -->
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#ff4d4d" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="-20" stroke="#4d8aff" stroke-width="1"/>
+    <line x1="0" y1="0" x2="-10" y2="10" stroke="#4dff4d" stroke-width="1"/>
+    
+    <!-- Project label -->
+    <text x="0" y="50" font-family="Arial" font-size="10" fill="white" text-anchor="middle">3D MODEL</text>
+  </g>
+  
+  <!-- Project 4: AI Project -->
+  <g transform="translate(330, 300)">
+    <!-- Project container -->
+    <rect x="-60" y="-60" width="120" height="120" rx="8" fill="#151515" stroke="#333" stroke-width="1"/>
+    
+    <!-- Neural Network -->
+    <circle cx="-35" cy="-25" r="5" fill="#ff4d4d" opacity="0.5"/>
+    <circle cx="-35" cy="0" r="5" fill="#ff4d4d" opacity="0.5"/>
+    <circle cx="-35" cy="25" r="5" fill="#ff4d4d" opacity="0.5"/>
+    
+    <circle cx="0" cy="-35" r="5" fill="#ff4d4d" opacity="0.7"/>
+    <circle cx="0" cy="-15" r="5" fill="#ff4d4d" opacity="0.7"/>
+    <circle cx="0" cy="5" r="5" fill="#ff4d4d" opacity="0.7"/>
+    <circle cx="0" cy="25" r="5" fill="#ff4d4d" opacity="0.7"/>
+    
+    <circle cx="35" cy="0" r="5" fill="#ff4d4d" opacity="0.9"/>
+    
+    <!-- Connections -->
+    <line x1="-35" y1="-25" x2="0" y2="-35" stroke="#ff4d4d" stroke-width="0.5" opacity="0.5"/>
+    <line x1="-35" y1="-25" x2="0" y2="-15" stroke="#ff4d4d" stroke-width="0.5" opacity="0.5"/>
+    <line x1="-35" y1="-25" x2="0" y2="5" stroke="#ff4d4d" stroke-width="0.5" opacity="0.5"/>
+    
+    <line x1="-35" y1="0" x2="0" y2="-35" stroke="#ff4d4d" stroke-width="0.5" opacity="0.5"/>
+    <line x1="-35" y1="0" x2="0" y2="-15" stroke="#ff4d4d" stroke-width="0.5" opacity="0.5"/>
+    <line x1="-35" y1="0" x2="0" y2="5" stroke="#ff4d4d" stroke-width="0.5" opacity="0.5"/>
+    <line x1="-35" y1="0" x2="0" y2="25" stroke="#ff4d4d" stroke-width="0.5" opacity="0.5"/>
+    
+    <line x1="-35" y1="25" x2="0" y2="-15" stroke="#ff4d4d" stroke-width="0.5" opacity="0.5"/>
+    <line x1="-35" y1="25" x2="0" y2="5" stroke="#ff4d4d" stroke-width="0.5" opacity="0.5"/>
+    <line x1="-35" y1="25" x2="0" y2="25" stroke="#ff4d4d" stroke-width="0.5" opacity="0.5"/>
+    
+    <line x1="0" y1="-35" x2="35" y2="0" stroke="#ff4d4d" stroke-width="0.5" opacity="0.5"/>
+    <line x1="0" y1="-15" x2="35" y2="0" stroke="#ff4d4d" stroke-width="0.5" opacity="0.5"/>
+    <line x1="0" y1="5" x2="35" y2="0" stroke="#ff4d4d" stroke-width="0.5" opacity="0.5"/>
+    <line x1="0" y1="25" x2="35" y2="0" stroke="#ff4d4d" stroke-width="0.5" opacity="0.5"/>
+    
+    <!-- Project label -->
+    <text x="0" y="50" font-family="Arial" font-size="10" fill="white" text-anchor="middle">AI PROJECT</text>
+  </g>
+  
+  <!-- Central Project Management Hub -->
+  <g transform="translate(300, 200)">
+    <circle cx="0" cy="0" r="30" fill="url(#hubGradient)"/>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="white" stroke-width="0.5" stroke-dasharray="3 3"/>
+    <text x="0" y="4" font-family="Arial" font-size="8" fill="white" text-anchor="middle">PROJECTS</text>
+  </g>
+  
+  <!-- Connection lines -->
+  <line x1="210" y1="170" x2="280" y2="190" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="3 2"/>
+  <line x1="390" y1="170" x2="320" y2="190" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="3 2"/>
+  <line x1="210" y1="230" x2="280" y2="210" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="3 2"/>
+  <line x1="390" y1="230" x2="320" y2="210" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="3 2"/>
+  
+  <!-- Floating particles -->
+  <circle cx="250" cy="180" r="2" fill="#ff4d4d" opacity="0.7">
+    <animate attributeName="cx" values="250;260;250" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="180" r="2" fill="#ff4d4d" opacity="0.7">
+    <animate attributeName="cx" values="350;340;350" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="220" r="2" fill="#ff4d4d" opacity="0.7">
+    <animate attributeName="cx" values="250;260;250" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="220" r="2" fill="#ff4d4d" opacity="0.7">
+    <animate attributeName="cx" values="350;340;350" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="hubGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#ff4d4d"/>
+      <stop offset="100%" stop-color="#ff4d4d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

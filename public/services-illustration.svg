@@ -1,0 +1,87 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background elements -->
+  <rect x="0" y="0" width="600" height="400" fill="none"/>
+  
+  <!-- Grid pattern -->
+  <path d="M50 50 H550 M50 100 H550 M50 150 H550 M50 200 H550 M50 250 H550 M50 300 H550 M50 350 H550" stroke="#333" stroke-width="0.5" opacity="0.3"/>
+  <path d="M50 50 V350 M100 50 V350 M150 50 V350 M200 50 V350 M250 50 V350 M300 50 V350 M350 50 V350 M400 50 V350 M450 50 V350 M500 50 V350 M550 50 V350" stroke="#333" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Central connector -->
+  <circle cx="300" cy="200" r="60" fill="#151515" stroke="#ff4d4d" stroke-width="2"/>
+  <circle cx="300" cy="200" r="50" fill="none" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="3 3"/>
+  
+  <!-- Web Development Node -->
+  <circle cx="180" cy="120" r="40" fill="#151515" stroke="#333" stroke-width="1"/>
+  <path d="M170 120 L190 120 M180 110 L180 130" stroke="#ff4d4d" stroke-width="2"/>
+  <path d="M165 105 L195 135 M165 135 L195 105" stroke="#ff4d4d" stroke-width="1" opacity="0.5"/>
+  <circle cx="180" cy="120" r="30" fill="none" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5"/>
+  
+  <!-- Mobile Development Node -->
+  <circle cx="420" cy="120" r="40" fill="#151515" stroke="#333" stroke-width="1"/>
+  <rect x="410" y="100" width="20" height="40" rx="4" stroke="#ff4d4d" stroke-width="2" fill="none"/>
+  <line x1="410" y1="110" x2="430" y2="110" stroke="#ff4d4d" stroke-width="1"/>
+  <line x1="420" y1="135" x2="420" y2="135" stroke="#ff4d4d" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="420" cy="120" r="30" fill="none" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5"/>
+  
+  <!-- UI/UX Design Node -->
+  <circle cx="180" cy="280" r="40" fill="#151515" stroke="#333" stroke-width="1"/>
+  <path d="M165 280 C165 270, 195 270, 195 280 C195 290, 165 290, 165 280 Z" stroke="#ff4d4d" stroke-width="2" fill="none"/>
+  <circle cx="170" cy="275" r="2" fill="#ff4d4d"/>
+  <circle cx="190" cy="275" r="2" fill="#ff4d4d"/>
+  <path d="M170 285 C175 290, 185 290, 190 285" stroke="#ff4d4d" stroke-width="1" fill="none"/>
+  <circle cx="180" cy="280" r="30" fill="none" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5"/>
+  
+  <!-- Data Analytics Node -->
+  <circle cx="420" cy="280" r="40" fill="#151515" stroke="#333" stroke-width="1"/>
+  <line x1="405" y1="290" x2="405" y2="270" stroke="#ff4d4d" stroke-width="2"/>
+  <line x1="415" y1="290" x2="415" y2="260" stroke="#ff4d4d" stroke-width="2"/>
+  <line x1="425" y1="290" x2="425" y2="265" stroke="#ff4d4d" stroke-width="2"/>
+  <line x1="435" y1="290" x2="435" y2="275" stroke="#ff4d4d" stroke-width="2"/>
+  <circle cx="420" cy="280" r="30" fill="none" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5"/>
+  
+  <!-- Connecting lines -->
+  <line x1="227" y1="155" x2="273" y2="185" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="4 2"/>
+  <line x1="373" y1="155" x2="327" y2="185" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="4 2"/>
+  <line x1="227" y1="245" x2="273" y2="215" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="4 2"/>
+  <line x1="373" y1="245" x2="327" y2="215" stroke="#ff4d4d" stroke-width="1" stroke-dasharray="4 2"/>
+  
+  <!-- Connecting paths -->
+  <path d="M300 140 C300 110, 310 100, 330 100 C350 100, 360 110, 360 140" stroke="#333" stroke-width="1" fill="none" stroke-dasharray="2 2"/>
+  <path d="M300 260 C300 290, 310 300, 330 300 C350 300, 360 290, 360 260" stroke="#333" stroke-width="1" fill="none" stroke-dasharray="2 2"/>
+  <path d="M240 200 C210 200, 200 190, 200 170 C200 150, 210 140, 240 140" stroke="#333" stroke-width="1" fill="none" stroke-dasharray="2 2"/>
+  <path d="M240 200 C210 200, 200 210, 200 230 C200 250, 210 260, 240 260" stroke="#333" stroke-width="1" fill="none" stroke-dasharray="2 2"/>
+  
+  <!-- Glowing central element -->
+  <circle cx="300" cy="200" r="20" fill="url(#centralGlow)"/>
+  
+  <!-- Central text -->
+  <text x="300" y="204" font-family="Arial" font-size="9" fill="white" text-anchor="middle">SERVICES</text>
+  
+  <!-- Icons text -->
+  <text x="180" y="155" font-family="Arial" font-size="8" fill="white" text-anchor="middle">WEB DEV</text>
+  <text x="420" y="155" font-family="Arial" font-size="8" fill="white" text-anchor="middle">MOBILE DEV</text>
+  <text x="180" y="315" font-family="Arial" font-size="8" fill="white" text-anchor="middle">UI/UX DESIGN</text>
+  <text x="420" y="315" font-family="Arial" font-size="8" fill="white" text-anchor="middle">DATA ANALYTICS</text>
+  
+  <!-- Particles -->
+  <circle cx="220" cy="150" r="2" fill="#ff4d4d" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="380" cy="150" r="2" fill="#ff4d4d" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="220" cy="250" r="2" fill="#ff4d4d" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="380" cy="250" r="2" fill="#ff4d4d" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="centralGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#ff4d4d"/>
+      <stop offset="100%" stop-color="#ff4d4d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
