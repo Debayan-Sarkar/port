@@ -1,5 +1,4 @@
 "use server"
-
 import nodemailer from "nodemailer"
 
 export type EmailData = {
