@@ -51,9 +51,9 @@ const teamMembers: TeamMember[] = [
                 bio: "Templeton is the visionary founder and CEO of our company with over 5 years of experience in the tech industry. He founded the company with a mission to create innovative solutions that solve real-world problems. His leadership and strategic vision have been instrumental in the company's growth and success.",
                 education: [
                         {
-                                degree: "bs in Mechanical And Production Engineering ",
+                                degree: "Bsc in Mechanical And Production Engineering ",
                                 institution: "Enugu state university (ESUT)",
-                                year: "2022 till dat",
+                                year: "2022 till date",
                         },
                         {
                                 degree: "software development", // Corrected here

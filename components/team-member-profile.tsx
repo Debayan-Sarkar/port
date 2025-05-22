@@ -88,7 +88,10 @@ export default function TeamMemberProfile({ member }: { member: TeamMember }) {
                       </div>
                       <div className="flex items-center text-white/70">
                         <Mail className="h-5 w-5 mr-3 text-white/40" />
-                        <span>{member.name.toLowerCase().replace(" ", ".")}@example.com</span>
+                        <span>
+                          {member.name.toLowerCase() === "young josh" && "nwekeifenayi2018@gmail.com"}
+                          {member.name.toLowerCase() === "templeton dc" && "timtemple2024@gmail.com"}
+                          </span>
                       </div>
                     </div>
 

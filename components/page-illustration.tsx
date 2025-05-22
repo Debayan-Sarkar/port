@@ -102,7 +102,7 @@ export default function PageIllustration({ imageSrc, altText, page }: PageIllust
           {page !== "services" && (
             <Image
               src={imageSrc || "/placeholder.svg"}
-              alt={altText}
+              alt={altText || 'image'}
               width={500}
               height={400}
               className="object-contain"

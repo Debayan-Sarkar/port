@@ -9,7 +9,7 @@ type Props = {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const member = getTeamMemberBySlug(params.slug)
+  const member = await getTeamMemberBySlug(params.slug)
 
   if (!member) {
     return {
@@ -24,8 +24,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default function TeamMemberPage({ params }: Props) {
-  const member = getTeamMemberBySlug(params.slug)
+export default async function TeamMemberPage({ params }: Props) {
+  const member = await getTeamMemberBySlug(params.slug)
 
   if (!member) {
     notFound()
