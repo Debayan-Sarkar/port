@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function TeamMemberPage({ params }: Props) {
-  const member = await getTeamMemberBySlug(params.slug)
+  const member =  getTeamMemberBySlug(params.slug)
 
   if (!member) {
     notFound()
